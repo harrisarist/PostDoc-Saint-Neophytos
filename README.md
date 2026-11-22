@@ -1,5 +1,12 @@
 # PostDoc — Saint Neophytos the Recluse: Computational Corpus
 
+**Computational Textual Emotion Classification (TEC) of Saint Neophytos the Recluse (Neophytos / Neofytos) — *Ten Discourses on Christ's Commandments*.**
+Postdoctoral research, University of Nicosia, Cyprus · Researcher: Charalambos (Harris) Aristotelous
+
+**Ελληνικά:** Υπολογιστική ανάλυση συναισθήματος (sentiment / emotion analysis) στα συγγράμματα του Αγίου Νεοφύτου του Εγκλείστου, «Δέκα Λόγοι περὶ τοῦ Χριστοῦ Ἐντολῶν». Μεταδιδακτορική έρευνα στο Πανεπιστήμιο Λευκωσίας, η οποία συνεχίζει το διδακτορικό του ερευνητή για τη χρήση της Αγίας Γραφής στα έργα του Αγίου Νεοφύτου.
+
+**Keywords:** saint neophytos, neophytos the recluse, byzantine greek, patristics, sentiment analysis, emotion classification, digital humanities, NLP, few-shot prompting, theology, Cyprus
+
 Preprocessing pipeline for the postdoctoral research project on Byzantine patristic texts.
 Converts the Stefanis 1996 critical edition of Saint Neophytos the Recluse's
 **"Ten Discourses on Christ's Commandments"** (*Δέκα Λόγοι περὶ τοῦ Χριστοῦ Ἐντολῶν*)
@@ -179,11 +186,17 @@ pytest tests/ -v --cov=preprocessing --cov-report=term-missing
 ## Repository Structure
 
 ```
-PostDoc-Sant-Neofytos/
-├── preprocessing.py        # 7-stage pipeline
-├── requirements.txt        # pinned dependencies
-├── neophytos_corpus.csv    # output corpus (457 rows)
-├── quality_report.txt      # quality report
+PostDoc-Saint-Neofytos/
+├── preprocessing.py          # Phase A: 7-stage corpus pipeline
+├── requirements.txt          # dependencies
+├── neophytos_corpus.csv      # output corpus (457 rows)
+├── quality_report.txt        # quality report
+├── tec_classify.py           # Phase B: few-shot TEC classification (Claude API)
+├── retry_tec_errors.py       # Phase B: re-classifies rows that failed
+├── validate_tec_results.py   # Phase B: validation checks on the results
+├── neophytos_tec_results.csv # Phase B: classification output
+├── kappa_pilot.py            # Phase C (pilot): inter-annotator agreement
+├── docs/                     # PhD dissertation (2 PDF parts)
 ├── tests/
 │   └── test_preprocessing.py
 └── README.md
@@ -204,7 +217,7 @@ MIT License. See source files for details.
 
 If you use this corpus or pipeline in your research, please cite:
 
-> Aristotelous, H. (2026). *Computational corpus of Neophytos the Recluse's
+> Aristotelous, C. (Harris) (2026). *Computational corpus of Neophytos the Recluse's
 > Ten Discourses on Christ's Commandments* (Stefanis 1996 edition).
 > Preprocessing pipeline v1.0.0.
 > https://github.com/harrisarist/PostDoc-Saint-Neofytos
