@@ -186,7 +186,7 @@ pytest tests/ -v --cov=preprocessing --cov-report=term-missing
 ## Repository Structure
 
 ```
-PostDoc-Saint-Neofytos/
+PostDoc-Saint-Neophytos/
 ├── preprocessing.py          # Phase A: 7-stage corpus pipeline
 ├── requirements.txt          # dependencies
 ├── neophytos_corpus.csv      # output corpus (457 rows)
@@ -220,4 +220,4 @@ If you use this corpus or pipeline in your research, please cite:
 > Aristotelous, C. (Harris) (2026). *Computational corpus of Neophytos the Recluse's
 > Ten Discourses on Christ's Commandments* (Stefanis 1996 edition).
 > Preprocessing pipeline v1.0.0.
-> https://github.com/harrisarist/PostDoc-Saint-Neofytos
+> https://github.com/harrisarist/PostDoc-Saint-Neophytos
