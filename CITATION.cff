@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this corpus or pipeline in your research, please cite it as below."
+type: software
+title: "Computational corpus and Textual Emotion Classification (TEC) pipeline for Saint Neophytos the Recluse's Ten Discourses on Christ's Commandments"
+abstract: >-
+  Preprocessing pipeline and few-shot emotion classification workflow for the
+  Ten Discourses on Christ's Commandments (Δέκα Λόγοι περὶ τοῦ Χριστοῦ Ἐντολῶν)
+  of Saint Neophytos the Recluse (Neophytos / Neofytos, 1134 - c. 1214).
+  Part of a postdoctoral project at the University of Nicosia on computational
+  sentiment and emotion analysis of Byzantine patristic Greek. It continues the
+  author's PhD research on the use of Holy Scripture in Neophytos's works.
+authors:
+  - family-names: Aristotelous
+    given-names: Charalambos
+    alias: Harris
+    affiliation: University of Nicosia
+    country: CY
+version: 1.0.0
+date-released: "2026-11-22"
+license: MIT
+repository-code: "https://github.com/harrisarist/PostDoc-Saint-Neophytos"
+keywords:
+  - Saint Neophytos
+  - Neophytos the Recluse
+  - Byzantine Greek
+  - patristics
+  - sentiment analysis
+  - emotion classification
+  - digital humanities
+  - natural language processing
+  - theology
+  - Cyprus
+references:
+  - type: thesis
+    title: "Ο Άγιος Νεόφυτος ο Έγκλειστος και η χρήση της Αγίας Γραφής στα έργα του. Συγκριτική αποτύπωση και στατιστική ανάλυση με τη βοήθεια υπολογιστικής επεξεργασίας"
+    authors:
+      - family-names: Aristotelous
+        given-names: Charalambos
+    year: 2023
+    thesis-type: "PhD thesis"
+    institution:
+      name: University of Nicosia
+    url: "https://repository.unic.ac.cy/archive/download/19d2f7a1-f4d6-4328-bae9-2ecf141f58c1.pdf"
