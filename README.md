@@ -1,5 +1,7 @@
 # PostDoc — Saint Neophytos the Recluse: Computational Corpus
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24447374.svg)](https://doi.org/10.5281/zenodo.24447374)
+
 **Computational Textual Emotion Classification (TEC) of Saint Neophytos the Recluse (Neophytos / Neofytos) — *Ten Discourses on Christ's Commandments*.**
 Postdoctoral research, University of Nicosia, Cyprus · Researcher: Charalambos (Harris) Aristotelous
 
