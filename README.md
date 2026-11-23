@@ -3,9 +3,9 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24447374.svg)](https://doi.org/10.5281/zenodo.24447374)
 
 **Computational Textual Emotion Classification (TEC) of Saint Neophytos the Recluse (Neophytos / Neofytos) — *Ten Discourses on Christ's Commandments*.**
-Postdoctoral research, University of Nicosia, Cyprus · Researcher: Charalambos (Harris) Aristotelous ([ORCID 0009-0008-1469-3748](https://orcid.org/0009-0008-1469-3748))
+Postdoctoral research, University of Nicosia, Cyprus · Researcher: Charalambos (Harris) Aristotelous · Χαράλαμπος (Χάρης) Αριστοτέλους ([ORCID 0009-0008-1469-3748](https://orcid.org/0009-0008-1469-3748))
 
-**Ελληνικά:** Υπολογιστική ανάλυση συναισθήματος (sentiment / emotion analysis) στα συγγράμματα του Αγίου Νεοφύτου του Εγκλείστου, «Δέκα Λόγοι περὶ τοῦ Χριστοῦ Ἐντολῶν». Μεταδιδακτορική έρευνα στο Πανεπιστήμιο Λευκωσίας, η οποία συνεχίζει το διδακτορικό του ερευνητή για τη χρήση της Αγίας Γραφής στα έργα του Αγίου Νεοφύτου.
+**Ελληνικά:** Ερευνητής: Χαράλαμπος (Χάρης) Αριστοτέλους. Υπολογιστική ανάλυση συναισθήματος (sentiment / emotion analysis) στα συγγράμματα του Αγίου Νεοφύτου του Εγκλείστου, «Δέκα Λόγοι περὶ τοῦ Χριστοῦ Ἐντολῶν». Μεταδιδακτορική έρευνα στο Πανεπιστήμιο Λευκωσίας, η οποία συνεχίζει το διδακτορικό του ερευνητή για τη χρήση της Αγίας Γραφής στα έργα του Αγίου Νεοφύτου.
 
 **Keywords:** saint neophytos, neophytos the recluse, byzantine greek, patristics, sentiment analysis, emotion classification, digital humanities, NLP, few-shot prompting, theology, Cyprus
 
